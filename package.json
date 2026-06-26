@@ -1,6 +1,6 @@
 {
   "name": "@jeetaksh/neumorphism-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A premium neumorphism React component library with 60+ themes, built for Next.js and modern React apps.",
   "type": "module",
   "main": "dist/index.js",
