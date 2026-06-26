@@ -29,6 +29,7 @@ export const originalTheme: Theme = {
   info: "#4299e1",
 };
 
+// Default
 export const defaultTheme: Theme = {
   bgColor: "#EDF2FA",
   textPrimary: "#0D1117",
