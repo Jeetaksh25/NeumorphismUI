@@ -1,0 +1,22 @@
+# Source code (published as compiled dist/)
+*.ts
+*.tsx
+ui/
+theme.tsx
+theme-colors.ts
+neumorphism.ts
+index.ts
+
+# Config / build files
+tsconfig.json
+tsconfig.build.json
+.github/
+.claude/
+
+# Docs / dev reference
+Neumorphism.md
+
+# OS / editor
+.DS_Store
+*.log
+node_modules/
