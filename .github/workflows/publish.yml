@@ -51,5 +51,7 @@ jobs:
           git commit -m "chore(release): bump version [skip ci]"
           git push origin main
 
-      - name: Publish to npm with provenance
+      - name: Publish to npm
         run: npm publish --provenance --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
